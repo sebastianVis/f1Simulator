@@ -1,0 +1,96 @@
+html{
+    height: 100%;
+  }
+
+  #main{
+    gap: 0;
+  }
+
+.card {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.9), rgba(40, 40, 40, 0.8));
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5), 0 0 30px rgba(255, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card p {
+    font-size: 16px;
+    opacity: 0.8;
+    margin: 10px 0;
+    text-shadow: 0 0 3px red, 0 0 5px red;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Animación al hacer hover */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 50px rgba(255, 0, 0, 1);
+}
+
+.card:hover h1 {
+    transform: translateY(-5px);
+}
+
+.card:hover p {
+    opacity: 1;
+}
+
+/* Efecto de destello */
+.card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 250%;
+    height: 250%;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.2) 10%, transparent 50%);
+    transform: rotate(45deg);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.card:hover::before {
+    top: 0%;
+    left: 0%;
+    width: 150%;
+    height: 150%;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        height: 100%;
+    }
+    .card {
+        width: 200px;
+        padding: 15px;
+    }
+    .card h1 {
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+}

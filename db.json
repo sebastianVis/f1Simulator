@@ -1,0 +1,242 @@
+{
+  "teams": [
+    {
+      "id": "194d12719e5",
+      "name": "los pirulines",
+      "country": "colombia",
+      "image": "data:image/png;base64,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",
+      "pilots": [
+        {
+          "id": "194d131b7d2",
+          "name": "atl bucaros",
+          "role": "piloto",
+          "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/lawson"
+        },
+        {
+          "id": "194d1322621",
+          "name": "santiago",
+          "role": "piloto",
+          "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/fom-website/drivers/2024Drivers/doohan"
+        },
+        {
+          "id": "194d134edc3",
+          "name": "santiago",
+          "role": "piloto",
+          "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/norris"
+        }
+      ]
+    },
+    {
+      "id": "194d127c278",
+      "name": "atl bucaros",
+      "country": "tolima",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAA+VBMVEX/////DEn/yAD/AEr/AEz/AD3/AEP/AED/xAD/zwD/xgD/ADT/yQD/0AD/ADf/zQD/2t//9/j/Z4H/rrj/j6D/h5j/09j/mKj/5en/NV7/ADX/4OT/HVH/ADD/1AD/pbL/uBL/zNP/Rmj/vwz/rBr/niL/bjX/lSb/aDf/djL/WDv/UT3/iyv/TW3/M0P/sBj/gi7/Q0D/7vD/8dT/px3/w8v/V3T/dIr/5Kf/+e7/1nD/hS3/JUb/oyD/aTb/68D/9eH/35L/2X3/0VP/kSj/PUL/5rD/7cb/zDH/1Wj/z0f/4Jn/24X/yy3/Xzr/ACb/bob/t8H/ABlneSp5AAAYrklEQVR4nO1dC1fiOtemTYA2tERHHZWRygiICAdEcATFES9416Pv//8x305bStILlELFbx33WuesGXrJzpOdfU8nkfiCNGhf3nWB7u7bvWXz8pXp/uqGKGRMivJwfTdYNldfkAbPT4CT7CGiyNf3y2bua9Hdg+IDlAMYuR4sm8OvQr0XP5FyydfTt3gB9a4nCRWH18M3XM/hoGKkPA2Wze1SqT11A4pwXS2b4SXSizILVGwvvg6WzfOSqPc6k1jZwtVdNttLofasYmWjdbZsxpdAd9Gwgq34tGzWP52eo2IF9Lps5j+ZrubACoRr2ex/Ks0jV/812Yqsrxx6WPYUptCdfLmgN0W0gzyRR/NNg7vuXXtBXC2SekQjT/Ol49rP149nV/e9CO6VF61ngOpBkTWZkJc5eHpUSAxov8gFTZvHJewSolFKYXYLwAr8rUFXobRT7shqdE+1/cCejj6nICJqTWrqRH58jhT9t1+JqlSO9qu3RV1bCFqE6GUJI4xrBZXcRODo6kYhVGvEIVqKjhDel1WqEeVmVu3VO1OofIARI9wqLQQuzdjHEiNgS53Zm+jKIOe6Vunj0sJ0sUOrABbwhWrVclGnRJ5FvNpnimZUEJIke3JvdH60NFobvVBCDUWbyT4OCKG0vD/ESEIX8t2MWEwnorYYc0w0GucyVZ5DPtd+gTXUm0MsjQn1i3ROrGixj/gXgsA/dgchebpUKNlnUg6PxiFZiTOtPJovjHKrK2F2OssYayqtsCXkCaGSOhdWehkJb0RDWQe8yHUYrgaKeuE8juPQWQNFb435w7c0hNxfK5oqVw6RODHrBXU9OlSaeoBd70OoVb3QVC1M9vmVXjiPo5YegzVMnMkaL/m6Ms3pGhBZ7xxiH6RMtA4iq3m10Pd5J2KGsaJScjOFsTah3KoX5OuFQcTRq6wdYnunS7g4TXqBp2IL+yNlrakWCS1Nrwe+FXg7VzVlshLqahdjhXJBY4rKH4jerO7vH6AwYN0rtBkgVCNOI6l5qtXGWxB5YUP9pqo8TuKsq1UsU4WlqkJD6d4o9KLI4IMbZeZEqMHb8O7sgRCidtx6xSsHFzOrebUpcXvonNS8aOEjXSZP14EOwT0pAmeoVikwHyi+0LJ3dwPa9RCBfqZBaRKGqKrqxu00rKQIat44596KL3TjwEd48RBcQSorZwHLqahvMAMWSTwt3sXiCBSR0oCR3nTF3+rcg1YvHB0OG5L/FnTtTHw7i2zBOvFYlVXjyHdFEB6+nRf0oFD2ipimqkBjFKuE6c0VJBOrgFD/GW6oOVbAZxpvFRdanfB6i5IG74ge6fp+kPQy33kIoax/zPigFRmLHTVgxReElcoMCa4axL/Gckb02wkGECZRNi7ECaJiWJtIi7y0ooauv03c6Sxm1IifZewRWoDlBNGMTb0n2opaYVhVdMVXrgYPslGdpqk0Yyj63v2QgaI5PwH2v1MtSL+gktdnLyCAFkMexJrE1DHXUyiLeCBS8dEFvcHloyKY9QD+q8aRK/SpGeHkyhXgGJXpFgQsowrSpby6e7x6ssbQQgUtpsLajdZkWBWoe6ffnRFFITI1LgK0ujjJsusmZuqnkqa4g0F1+ljsPrRfLuoAGHkRZIihBWD1VRKLQYTws8/WgpKB8PsVwKTqqtKsN0I4CxJuusEKpeTVhkseW9VQYFnO5+GtAo79Iw9XT6aw9qhK5TjAumJpB3SkirucuQrFo1ofArPJ/rrDe73i9SOVaWpL3Xc/FG60MWCHHXAl+C6cnqIC3lj2NQHz0hMFBxC5zMu1QouBsbI/3wdHXrCmqS2tEEZoJ4+LGyXY7pyyv2QBNTqnE2OjiMSyf6il81LbA/NXn2mJgfp972/4dvJG1A9nHMQfrkMIBbkcwyvIK2qpcUTSBNQGelM563FPtOnmLyRNBEsrLmYUhCogwo55emYRNZqea4pAMpOs2liyeo+Kf2Ip0jQqk9CiYZX5VMItEK6Roj+jdVBaboO1ELJ1lmwn36+USYmlWQnVJsWI+oJGYQOhOih6ln3uXRGD5X5jyZS+mNZw3yCP9+27R0XWm6FchbA0wdfSSoscCDfALoJjqMjMPUYHgemTeahNqGTGhWzDUL1wuDCxMqcwYRsG7cKI4yPcqii6rhdYaIkLctg61Uz0YEU7jUqh0Dl312ui0yhNHexq6Q3fsVDZx66GHBKjvpllxdVYjCGLo3WWPkKm/7kwqerfmsnOCV782BaKo2LVmyadkVheLqb8X1fRubpyVEZd+aySaqYhUD0QLHprP4LLwn5ERlTvy+IdsQR0QK5pIWhRUpWYXGE8jMgp+itMuKFrpnsOHlwQWKo9EkzN4GUJG54YKBw19hsYqFEtqkosdTCL2oSAai9XyiXNaHpMVCjWseBgooouq6Yu7AeaQzu9gA4NjfIPY1KPBBY6MHRaLFKdxhMXjunuSZE1TZOJN1xDbyEULmpQ/jlcLONDle2nQA2vWasCnpjaLPHChEthXIp+x4uoLptnP29iLVeY1LvvdruXl7InBMHKdNYlVBUl6xxgOmBSGujD03OzytfSjSrGxdvx1NGRGqaApHnAAnfhbtAexI6UQwOieCSLhuG9IKazrEYWHQUrLcvmYUU/xJZqdkxMK4yGxwWPzURlLX6Z4qlH3MuKhiHyKDBBb6UPHRlm2XaCygKFNXoO1UZwYSXMiB1PSiiWlqyJpLhdRXRQCrHOzdGu4As1+2zS+MJ3H1qxDjoijrN1KNvhO4A8tT4CYnThycwWZurFWwDdUHfh4dxHlQqYgM9cN8BzMN3aFm8N2J/Rga9oWbEOOh9PGXf0NzvfSIWqawBYHuWKYqvpBNGdW8OjC59NwalXNKw3wWaDg1Mrdwp60bsbfSXL8JpYVDBKbw1AnHm05XGWyNdPxiXD9TPLcHwuVokE0UXNiWUfBY+Ljg7GTb1ZBZNXpCqlmk+8h8o+aPkllJGkUFUHN4nqlYKhOT83/JxURPWhawuUtXk65yNQ70rWhX3I/KBRPzJ2okd07viu6Eivg+NvtbBpHpeW3V7wouWtVLB7h6YHq9EKxlXHJOKO41egUQMBwhVVdSUtcFG+vrwffBJQ3cebB0XWSyILJSrr57XWW7XSKRRKt3+HJmi3494NRPQ+KFcTLMOddQEdBvPzOKYaRZJPZGAbA8rkVR5ZjD4EQ9ZioUar1mqwbXlY0ptumwl2AYYh8qfAdUMoVY2m2GgAtr2AyyqQVY3XqKqSYkHWiD5CC70ZFYzemFDo557NhRSYasMd86gsP9fy7tiWYV1E1VG4iFBBlvqN1sF5p6gzPnT4v65qev/IcHla+LBSamraZxzEuyS0+lbri/ks1Gda6IDKr09nV5ft9v3d8wvI38NN95KoJVs2cNPoIyZa6hgrJNkKHNUM0Nmu3IOmsPYNx8Maj4lB+bEidd8u4sOfYA+zpaIaeX16enh9VRi9vkIY7tF7pjkuxpP1E+mJnnsKhahfBJ8A/BexCaI3SLQfYbdQyx1CQ6OMQd9wzOMjY/QX3AHzioiwEUEfWU6YBac+9v6RoqkHMKJiqabhLQh09/nq+Y5TRr0eK0oc4UM/dwxWNlbRumP9KAPFXT5gx1QoqCZ0yOX+B9fm52UUorENYTStdOgFE63K2DKgA4OOomGAsorEcqtax6jvDIcahupUs9G+WsDwuBULHRgqbKsX9imp567gQ3XlDsZ1w8cdM2tgvct43NO2TFj9+8Xp9bUNn1Sry4YC3ICVcUzyABaeFi5KKi3XakPQLKb1A1VTQczN0Rv2K24LpdrYt1BBye8bjmypZXhpYWxzwVqUnB3ZYtBWLPf+wCiATdFYOkTTZGXAcT1gZWdcYWuJLJ6dtzXlu2dFJg8xOKgvCi2WVXJGrMVEuH9wXu40C5phGKV91hpW59LZV3KnAXoBN7Qis3JI1c2cXx9Ag4h5bMyRvaOZNgKcFFBbtVEPsw7qCLapeVvfzm2OsGqBcmJgsReBNJ4zw6uq5dvb23pTFurxMgXng7XfHQ1BsdUOWxIeBUuqTNSmPNe5QH96JCAUuErNKbBGnqJRKB9Vq9W/h0OmeOGazvWfX9mHV2AiZtxXVpkMICYOuEzd3iuSmnUzOtTBwGFby2v7APab2c0F+8g8UsGpSl2mHcDdBEvVWXtPyzC79PEhFVquumYDKerXi4ahFpudpqbUbYMDJnsfSyXVvzUvOrUVyjZaWbVqFi1ZttLLtveH2KE/vkfFObyCy2Zmr6abueN92XQPnNYq2y9qKVRn4AIoqtrsmD01YEZw/9boWK2Gsl5HWGoMR2KBIY5kbR1vDErFAB5Q3fJzQRmIX6x50FjLsCnDzFnGuFG3PBewSiwIwdUFN0uemU1/4EuVzHHfwLwge3hk97rKYpnkWraMGBh3+EOVmrERKreQ6bwOrZ0sHRzVz/f3O8yrZw3uAFtT1+y2SUqpzhpQWaOs+VdZB4Idj9kEqZXoMt8z1JrwRytV71Pbgg195CwsMleoXDAflIoEWW7IAr2IB1nVlT7o1JKpW1pmZxn+WwS/D/bifrWkax5RVtR9Ux+BcgcqW6Eg6C/mlNJbWGH0dsHcIkY2OHVWR+BzgLTOdqJi6zDL2QXNVMP7zHmFt0i2KquWYAhs6n3d28p3Q9TiUa3197x+/rdhiiY+LForqTfBQsnswM+isOoSedhS5ZJBbBPWt/SIrCjWuWe//nx4qF4xd0nt6M1yJ9k2GMryDZFp8aKpq+5IkOpK6aKk8WDt14uqOwSCIBqefGoTOpQaI/fdXpgOJT7tVpeEUHth9GLVvLNvxpygUou3WqF1sLhTKTdgUEAiivWRTWL/lVV2PrPX7l4/nnX9rO8T4Gj0kWPDYP07zaIuvyauiaz5tyhrrt/NA+i+RHowgKoz68oZCpUq/iJy9/gq37xcXT8psqqYTteoZATbg4Xb2qI+zfUA2gF2kw1V/xCW8aBIp5ZyL5+ftNH5HfA0zmWQEWJ+pOjJH4AZyBSEM5BsWvgrjQIK8OCmtw/dEZmFqEzMLWk/gImhKl1QsbVHWNTWvLAVNnjkCttBIeS2p6jnpjmX/pbYoaLuvf3Q67xYjZyUtsJ6VOp2uoHziifQFTsF0q+VNCu3g5h3e7ioloczM/lkFwxwkxKFKCHNR1dRm39r1Q6AqzzxBc05seKE+vmBHayilbfhWzFkIqFNZJaPsBtOcAfEHykLqrc+0DcwUtYuBDukQHwcOkK4M2ciK6/Prkfm+RKGSwH0Lq/ZdweYtIfkq/cCQevLjXWCB5wNsLn1BSmta6IWqiX16K2P+kcqmS046D3fPNz4GYAo37CzsfKRgfbLk/wwq7NEtGL18O2gYtQOLuiiDg+cgXhohKW9dbq4r8jdRERrce52z/IoNPZljwArGoXuzh67Lw+KIiqeOWnmb0kyIq+LTBJ0H5+ebs5uQEsMFvjWWOh+dtn6T34e0aab2YSLxNwi9MXpcpYPRP2Xxcqiq7AfV/6vf1rZopcwcH1/43xE3SmbESLKr/hlv2VR+5oEfcCbKPF+feH/JbXNf8WCR4z1fZLr/7QBnESDy6uzm1diHrl+enzpfv9rMt/0Td/0Td/0Td/0Td/0Td/0Td/0Td/0TZ9AJ5tjOvnksdfHQ6+v2r/95H78+GR+ptJ6Lj2izPrnDr36rzN0+t8RWGt557fsj8/lZzqtp51WtPRng5UZt8FlHLCSzm+pYLA2/Gl99+Q4To4ngrXrz9Lm2smvBQw9B1iZtD8lsxm8vrUA3vxpIlg/skE85fJ7m/MyNQdY45u8lM7/WcRS+tFksFLBPKXS+b35LEJMYMGD+Y25GAukyGAxpnJ786iI2MCSpOROLLprHrAYXD+jDx0jWFIqG8dWnA8sScpHRytOsCQpF4OenxcsKRdZ4OMFS5Ki8hVMc4OV2o46dMxgpf9EZSyQ5gZLyu5GHHphYKUYeRnLLDx8mwGsVMqfq2TEoRcF1p5F27msi7ediIwFUniwtm2m9qScyFRyLdrQCwIr7/z68z0vMJZdtGiFBiu74vy89Z7jeUrtRRt64WAlEisSv44TXhCNwoPF+wgfwhLmV90PhqIYwEqsCqKVD3o+IkUDK7HLs5v9HWnoOMBKbPHLGJGxQIoIVmKb4ymi0ooFrMRpmmMsqqEOoKhgcZOSkpuRho4HrJXs+FJ6wQF1VLC2OB2f/kpgJbi3LlrDRwWLn2lEaY8JLO7SVwHrmJOsZLTKQkxgcTor9R6JsUCKCtYJx28uWjokHrD4t34VnfWHu5SONnQ8YH3wlidibBFEEcE64fV7xPWLB6wd7lJuxf3g8drpdjafz2R3fmxOz8St/vxY2/347SShooH1m5unlI+YlIwFrA3+klvkP7bzydGUUulscmNSgnB1dy+fTQJlM9KGhXoUsH6d8m5yis8b7Y5pU8wKrnmuxAHWJh+1ukT+I+VOS6TzP4JSl6unY1zhxszez5nB+rMDlBSzDnl+PCnp0L+iwG1nx1e2YgJr6w/nkbpE/nhPuDYaI+/v9qxl0u4b32cF6x9vNisnjMZpDFfJYG/8aG7hYB2vrPz6vfsnL+bfeJH/7ZYqh02/Uf74AJuWjjfnBCspjrUksDby2Ww26WIuz2kkMU0izsCbYdpO+96Z5lyAKGC5J7QksNZ9ZpflgrCTYKwALXeyfjsom867S1HAehch+Tpg8fWKFQGrFKhNYR5ZMbb94S9XrtdH2Yag+PjU35cBK80XnXiu05kfu2u771n+CX7DJtZy7nctDCx4LMuFhl8FLEER8SmuzKk90jonbbwp4LmyLoIg+ghuNLAYA18NrPwpdzO/CfPjheUda87JOBVflUyern2sbey4zWNksDgV+SXASkpCOpmzYUKa8mMMQMoB91g0BY5jdCKJU48OlpQcDbZ8sNI5SQyf+ay8WEnkWMqOfhNgT/HNOH+EBQkB1nbeokzOVUDPfHwRsHbW3fExN31XlpJLMzmlDQGRlFC22hPsxAxZh621HRGu5BcBK+kJ9niWxMCZY2A095+8bsqIxaFV/tpM+SyIWYXdbS/a0sHy1OyPuVGyW6vHHHGzH9nDTT7P6nZW+frfjGC5HZIvAlbSlV3jU7pSNsOTwL/PjD1VRz4JOyNYiXd+E2d+fQ2wpLw4x80w/riTu+BTh96Gl9liQ5EEM2ulcJcVSPOIiCm/jXBg2QzwdTRvf9dsWQcXCYn4jSWCtcbrXnGW7wHejhusYw9Yp55hOeZmB8urDpcElmjWc7yjFaohbwTW6mSwPuYBi6+kWI1HywJL6AcZiYlJp+HAsjuB+IDRO/zuPGDxDQ/S9jLBSmzyP/F9roLO2g4k2+PwMZAcnc6h4EVGlipZYluPlBxPhV/Q3NRGMv4tGU/th5vu7GDxhnaqzuJ4jgOsX2J/nVMx5H3yrKeO6CbeHHjwOMlOuDgNrJ/euhMPlujvcLfGAlZiXYy/nHs5EKd3sAhNehmXIPKyMTNYQq7a6g7ZCXrdFodMPGAJc5HSTk8I79+41NDqhntf/uJTf6l/hGvCaswK1ruwlFb5UGgI5G/mc2oxgSVm2vOjVmUubcXrMpOpbP7UpZgExJN8F86ukEKdDaytPQEru2WZX0Z+sr/5idjTW3iRVXTWk6NXCtl23gVbz7Iawp/gZlkpOT72dipGwpPBSu7+HtPJ5p5Y0JTsRLyQOxsvzImwKjsxgcXrRW4TCV7FOAW++sMSuVSGPze5KmKSyp+eHCdWf2640/BTDg0ks2NKuguaIwAEnS+lpV1YmdXff8Rf1+MCS5Df8TkZgdd0duNk6/jXyXvG+TmV3RkLnMtOwMVcJpP1Vo+ind2xOB6Zvh3x92Qum8y4KuejwlMMjSHvwqRGA7lKrOlkLucqX2e5qYeb8xxgOTn4xMfUqpuDQRxdNKIEjBKBp1NOkQkn235Pql47FB0s/kDK3rRnnMAtDrBE5egkAgML8vZ9Qi563a/dxk2RwRKqv8dTVnFcuYulmU1k2TlnuzNpJu4jwu9BUwgd7gSTqw1lZaIYZ8aVu1jAWhXFIjX6fS9wDVMpTwz47itb6b35T7Lm3Y+tBLVCsZlxAUdMDbii5XXecRqwhtl/fKLrTZ+bcz8Su/OBlcpte4PT4+2AXZ9O8vFiTH3wYiE45+z6E8lHuJIBPfwr7nq9eWPotLIfUsn8P/7nrnazPoy5Gm7mAetfzuf7n+vacT7L0//Gm2zX1VSazkrBkfXaTs6BJpW1fIvN8bje72z8EccVKJeXfqwFnrxf3UyLjAGwrlauxOr/uCmNwNrl+Ak+Eb7Ck/vilnB1hddIJ+/ZXDLJPhCTzOZ3NiafsPu5sZPPMT6kd1v8jgNe6zdsIA++dHKaymST5qdrkrnMnzWvavCb8UR+FkFbJ7ubm5u7Hz9DnSgFBLaiHT2dmY5/rzHO1k4WMO3/A7Pzu5dN+YDyAAAAAElFTkSuQmCC",
+      "pilots": [
+        {
+          "id": "194d1313fbc",
+          "name": "Radol",
+          "role": "piloto",
+          "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/alonso"
+        }
+      ]
+    }
+  ],
+  "circuits": [
+    {
+      "id": "194d1218bbe",
+      "name": "rozo",
+      "country": "grece",
+      "length": "3.000",
+      "laps": "3",
+      "description": "corto pero preciso",
+      "img": "https://e00-marca.uecdn.es/deporte/motor/formula1/img/circuitos/bahrein.jpg",
+      "lap_record": {},
+      "winners": []
+    },
+    {
+      "id": "194d12247bf",
+      "name": "riovaz",
+      "country": "italy",
+      "length": "2.000",
+      "laps": "3",
+      "description": "largo pero aburrido",
+      "img": "https://cdn2.mediotiempo.com/uploads/media/2023/07/22/marina-bay.jpg",
+      "lap_record": {},
+      "winners": []
+    },
+    {
+      "id": "194d8c91bca",
+      "name": "Via Giron",
+      "country": "bucaramanchester",
+      "length": "7.000",
+      "laps": "6",
+      "description": "Una bonita via para ir a campus",
+      "img": "https://e00-marca.uecdn.es/deporte/motor/formula1/img/circuitos/bahrein.jpg",
+      "lap_record": {},
+      "winners": []
+    }
+  ],
+  "cars": [
+    {
+      "id": "194d1257147",
+      "model": "pichirilo",
+      "motor": "mazda 3 ",
+      "performance": {
+        "acceleration_ZtoH": "2.4",
+        "max_speed_kmh": "250",
+        "average_Speed": "140",
+        "fuel_consumption": {
+          "dry": "0.5",
+          "rainy": "1.2",
+          "extreme": "2.3"
+        },
+        "tire_wear": {
+          "dry": "0.8",
+          "rainy": "1.5",
+          "extreme": "1.8"
+        }
+      },
+      "image": "https://www.topgear.com/sites/default/files/images/news-article/2021/03/08c2a7ed1c8471d88904587f7554c6b9/sf21-trequarti.jpg"
+    },
+    {
+      "id": "194d8aeae3f",
+      "model": "2049",
+      "motor": "Honda 7390",
+      "performance": {
+        "acceleration_ZtoH": "3.2",
+        "max_speed_kmh": "340",
+        "average_Speed": "230",
+        "fuel_consumption": {
+          "dry": "1.7",
+          "rainy": "1.9",
+          "extreme": "2.2"
+        },
+        "tire_wear": {
+          "dry": "1.1",
+          "rainy": "1.3",
+          "extreme": "1.7"
+        }
+      },
+      "image": "https://media.formula1.com/image/upload/f_auto,c_limit,w_1440,q_auto/f_auto,c_fill,q_75,w_1320,g_faces,ar_16:9/content/dam/fom-website/manual/DriverAndTeamImages/2024/2055023690_16by9South"
+    },
+    {
+      "id": "194d8b05d67",
+      "model": "2049",
+      "motor": "mercedes 090",
+      "performance": {
+        "acceleration_ZtoH": "3.1",
+        "max_speed_kmh": "340",
+        "average_Speed": "230",
+        "fuel_consumption": {
+          "dry": "1.3",
+          "rainy": "1.4",
+          "extreme": "1.9"
+        },
+        "tire_wear": {
+          "dry": "0.8",
+          "rainy": "1.1",
+          "extreme": "1.7"
+        }
+      },
+      "image": "https://media.formula1.com/image/upload/f_auto,c_limit,w_1440,q_auto/f_auto,c_fill,q_auto,w_1320,t_16by9Centre,g_faces,ar_16:9/trackside-images/2024/F1_Grand_Prix_of_Abu_Dhabi/2188867766"
+    }
+  ],
+  "simulations": [
+    {
+      "id": "65d8",
+      "date": "2025-02-06T00:37:23.808Z",
+      "driverName": "Radol",
+      "number": 194,
+      "totalTime": "16:37.090",
+      "lapTimes": [
+        {
+          "lap": 1,
+          "time": "2:44.464"
+        },
+        {
+          "lap": 2,
+          "time": "5:39.885"
+        },
+        {
+          "lap": 3,
+          "time": "8:12.741"
+        }
+      ]
+    },
+    {
+      "id": "9398",
+      "date": "2025-02-06T00:37:25.351Z",
+      "driverName": "Radol",
+      "number": 194,
+      "totalTime": "16:59.504",
+      "lapTimes": [
+        {
+          "lap": 1,
+          "time": "2:49.540"
+        },
+        {
+          "lap": 2,
+          "time": "5:36.761"
+        },
+        {
+          "lap": 3,
+          "time": "8:33.202"
+        }
+      ]
+    },
+    {
+      "id": "934a",
+      "date": "2025-02-06T00:59:35.291Z",
+      "driverName": "Radol",
+      "number": 194,
+      "totalTime": "11:14.604",
+      "lapTimes": [
+        {
+          "lap": 1,
+          "time": "1:57.038"
+        },
+        {
+          "lap": 2,
+          "time": "3:48.710"
+        },
+        {
+          "lap": 3,
+          "time": "5:28.855"
+        }
+      ]
+    },
+    {
+      "id": "f618",
+      "date": "2025-02-06T01:55:31.468Z",
+      "driverName": "Radol",
+      "number": 194,
+      "totalTime": "132:43.151",
+      "lapTimes": [
+        {
+          "lap": 1,
+          "time": "6:41.995"
+        },
+        {
+          "lap": 2,
+          "time": "13:44.054"
+        },
+        {
+          "lap": 3,
+          "time": "19:57.596"
+        },
+        {
+          "lap": 4,
+          "time": "26:13.503"
+        },
+        {
+          "lap": 5,
+          "time": "29:50.849"
+        },
+        {
+          "lap": 6,
+          "time": "36:15.152"
+        }
+      ]
+    }
+  ]
+}

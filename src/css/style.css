@@ -1,0 +1,167 @@
+html{
+  height: 100%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+  cursor: url('src/services/cursor.png'), auto ;
+}
+
+#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  overflow: none;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  body {
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+
+  #background-video{
+    width: 100%;
+    height: 110%;
+    overflow-y: hidden;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 80px;
+}
+
+#btnBack {
+  margin-bottom: 200px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  border: 2px solid red;
+  border-radius: 50%;
+  text-transform: uppercase;
+  transition: 0.3s;
+  box-shadow: 0 0 10px red, 0 0 20px red;
+}
+
+#btnBack::before {
+  content: "<";
+  font-size: 22px;
+}
+
+#btnBack:hover {
+  background: red;
+  color: black;
+  box-shadow: 0 0 20px red, 0 0 40px red;
+  transform: scale(1.1);
+}
+
+input , textarea , label , button{
+  cursor: url('src/services/flag.png'), auto ;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.FirstPage, .cardInit {
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(66, 2, 2, 0.8);
+  box-shadow: 0 0 10px red, 0 0 30px red;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.FirstPage h1, .cardInit h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px red, 0 0 10px red;
+  margin: 20px 0;
+  color: black;
+}
+
+.FirstPage p, .cardInit p {
+  font-size: 14px;
+  opacity: 0.8;
+  text-shadow: 0 0 3px red, 0 0 5px red;
+}
+
+.cardInit {
+  width: 220px;
+}
+
+.FirstPage::before, .cardInit::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 250%;
+  height: 250%;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.4) 10%, transparent 50%);
+  transform: rotate(30deg);
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.FirstPage:hover::before, .cardInit:hover::before {
+  top: 0%;
+  left: 0%;
+}
+
+.cardInit:hover, .FirstPage:hover {
+  box-shadow: 0 0 20px red, 0 0 40px red;
+  transform: scale(1.05);
+}
+
+.card button {
+  background: transparent;
+  color: white;
+  border: 2px solid red;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 10px red, 0 0 20px red;
+  cursor: url('src/services/flag.png'), auto ;
+}
+
+.card button:hover {
+  background-color: red;
+  color: black;
+  box-shadow: 0 0 20px red, 0 0 40px red;
+  transform: scale(1.1);
+}

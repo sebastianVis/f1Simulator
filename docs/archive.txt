@@ -1,0 +1,30 @@
+docs/
+  archive.txt
+  squema.json
+node_modules/
+public/
+src/
+  api/
+    circuitsApi.js
+    teamsApi.js
+    vehiclesApi.js
+  components/
+    carComponent/
+    circuitComponents/
+    pilotsComponents/
+    simulationComponent/
+    teamComponents/
+    mainComponent.js
+    managementComponent.js
+    playGame.js
+  css/
+  services/
+    f1WhiteLogo.svg
+    javascript.svg
+  main.js
+.gitignore
+db.json
+index.html
+package-lock.json
+package.json
+README.md

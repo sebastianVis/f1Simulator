@@ -1,0 +1,167 @@
+body {
+  height: 100%;
+}
+
+/* Contenedor del formulario */
+.formEdit {
+  background: linear-gradient(
+    145deg,
+    rgba(0, 0, 0, 0.9),
+    rgba(30, 30, 30, 0.8)
+  );
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 20px #b2ffff, 0 0 40px #b2ffff;
+  width: 600px;
+  max-width: 700px;
+  height: auto;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Título del formulario */
+.formEdit h1 {
+  color: #b2ffff;
+  text-shadow: 0 0 10px #b2ffff, 0 0 20px #b2ffff, 0 0 30px #b2ffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas de los inputs */
+.formEdit label {
+  display: block;
+  font-size: 11px;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+/* Inputs y Textarea */
+.formEdit input,
+.formEdit textarea {
+  width: 80%;
+  max-width: 80%;
+  max-height: 200px;
+  padding: 8px;
+  background-color: #1a1a1a;
+  border: 2px solid #b2ffff;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Efecto de enfoque en los inputs */
+.formEdit input:focus,
+.formEdit textarea:focus {
+  box-shadow: 0 0 10px #b2ffff, 0 0 20px #b2ffff;
+  border-color: white;
+}
+
+/* Botón de envío */
+.formEdit button {
+    margin-top: 10px;
+  width: 25%;
+  padding: 12px cover;
+  background: #b2ffff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: url("/src/services/flag.png"), auto;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #b2ffff, 0 0 20px #b2ffff;
+}
+
+/* Efecto hover en el botón */
+.formEdit button:hover {
+  background: white;
+  color: #b2ffff;
+  box-shadow: 0 0 15px white, 0 0 30px #b2ffff;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplicando la animación al formulario */
+#myformEditCircuito {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Media Queries para hacerlo responsive */
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  .formEdit {
+    padding: 20px;
+    width: 80%;
+    max-width: 100%;
+  }
+
+  .formEdit h1 {
+    font-size: 20px;
+  }
+
+  .formEdit label {
+    font-size: 10px;
+  }
+
+  .formEdit input,
+  .formEdit textarea {
+    font-size: 16px;
+    padding: 12px;
+    width: 60%;
+  }
+
+  .formEdit button {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+/* Pantallas grandes (escritorios) */
+@media (min-width: 1200px) {
+  .formEdit {
+    padding: 30px;
+    width: 600px;
+    max-width: 700px;
+  }
+
+  .formEdit h1 {
+    font-size: 24px;
+  }
+
+  .formEdit input,
+  .formEdit textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .formEdit button {
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #btnBack {
+    padding: 15px;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+  }
+
+  #btnBack::before {
+    font-size: 26px;
+  }
+}

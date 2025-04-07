@@ -1,0 +1,87 @@
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cardListedContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5), 0 0 30px rgba(255, 0, 0, 0.7);
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  position: relative;
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+.list-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.8);
+}
+
+.list-card div {
+  padding: 15px;
+}
+
+.list-card p {
+  margin: 5px 0;
+}
+
+.list-card div:first-child {
+  background-color: black;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  height: 100%;
+}
+
+
+.list-card:hover div:first-child {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.list-card:hover div:first-child img{
+  opacity: 0.3;
+  transition: color 0.3s ease;
+}
+
+.list-card:hover div:first-child p {
+  color: rgba(255, 0, 0, 0.127);
+  transition: color 0.3s ease;
+}
+
+.list-card div:last-child {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(25%);
+  transition: 0.3s ease;
+  opacity: 0;
+}
+
+.list-card:hover div:last-child {
+  opacity: 1;
+  transform: translateY(-70%);
+}
+
+.list-card:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}

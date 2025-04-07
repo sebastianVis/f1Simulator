@@ -1,0 +1,172 @@
+
+
+/* Contenedor del formulario */
+body {
+  height: 100vh;
+}
+
+.formCreate {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 0, 0, 0.9),
+    rgba(30, 30, 30, 0.8)
+  );
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 20px #2cff05, 0 0 40px #2cff05;
+  width: 600px;
+  max-width: 700px;
+  height: auto;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Título del formulario */
+.formCreate h1 {
+  color: #2cff05;
+  text-shadow: 0 0 10px #2cff05, 0 0 20px #2cff05, 0 0 30px #2cff05;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas de los inputs */
+.formCreate label {
+  display: block;
+  font-size: 11px;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+/* Inputs y Textarea */
+.formCreate input,
+.formCreate textarea {
+  width: 80%;
+  max-width: 80%;
+  max-height: 200px;
+  padding: 8px;
+  background-color: #1a1a1a;
+  border: 2px solid #2cff05;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Efecto de enfoque en los inputs */
+.formCreate input:focus,
+.formCreate textarea:focus {
+  box-shadow: 0 0 10px #2cff05, 0 0 20px #2cff05;
+  border-color: white;
+}
+
+/* Botón de envío */
+.formCreate button {
+  margin-top: 10px;
+  width: 33%;
+  padding: 12px;
+  background: #2cff05;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: url("/src/services/flag.png"), auto;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #2cff05, 0 0 20px #2cff05;
+}
+
+/* Efecto hover en el botón */
+.formCreate button:hover {
+  background: white;
+  color: #2cff05;
+  box-shadow: 0 0 15px white, 0 0 30px #2cff05;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplicando la animación al formulario */
+#myformCrearCircuito {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 600px) {
+  .formCreate {
+    padding: 20px;
+    width: 80%;
+    max-width: 100%;
+  }
+
+  .formCreate h1 {
+    font-size: 20px;
+  }
+
+  .formCreate label {
+    font-size: 10px;
+  }
+
+  .formCreate input,
+  .formCreate textarea {
+    font-size: 16px;
+    padding: 12px;
+    width: 58%;
+  }
+
+  .formCreate button {
+    width: 28%;
+    padding: 15px cover;
+    background: #2cff05;
+    font-size: 16px;
+  }
+}
+
+/* Pantallas grandes (escritorios) */
+@media (min-width: 1200px) {
+  .formCreate {
+    padding: 30px;
+    width: 600px;
+    max-width: 700px;
+  }
+
+  .formCreate h1 {
+    font-size: 24px;
+  }
+
+  .formCreate input,
+  .formCreate textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .formCreate button {
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #btnBack {
+    padding: 15px;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+  }
+
+  #btnBack::before {
+    font-size: 26px;
+  }
+}

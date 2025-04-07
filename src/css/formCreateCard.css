@@ -1,0 +1,163 @@
+/* Formulario para crear tarjeta de vehiculo */
+
+
+.list-card:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+.list-card:hover p {
+  opacity: 0.5; /* Ajusta el nivel de transparencia según lo necesites */
+  transition: opacity 0.3s ease;
+}
+.list-card:hover p:nth-of-type(4) {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.header{
+    width: 20%;
+    flex-direction: row;
+}
+
+#main{
+    width: 80%;
+}
+
+.formCreate {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 0, 0, 0.9),
+    rgba(30, 30, 30, 0.8)
+  );
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 20px #2cff05, 0 0 40px #2cff05;
+  width: 800px;
+  max-width: 700px;
+  height: auto;
+  text-align: center;
+  margin: 20px;
+}
+
+.containerInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.containerInfo .container{
+  width: 33%;
+}
+
+.formCreate input,
+.formCreate textarea {
+  width: 30%;
+  max-width: 30%;
+  max-height: 90px;
+  padding: 8px;
+  background-color: #1a1a1a;
+  border: 2px solid #2cff05;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Título del formulario */
+.formCreate h1 {
+  color: #2cff05;
+  text-shadow: 0 0 10px #2cff05, 0 0 20px #2cff05, 0 0 30px #2cff05;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas de los inputs */
+.formCreate label {
+  display: block;
+  font-size: 11px;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+
+/* Efecto de enfoque en los inputs */
+.formCreate input:focus,
+.formCreate textarea:focus {
+  box-shadow: 0 0 10px #2cff05, 0 0 20px #2cff05;
+  border-color: white;
+}
+
+/* Botón de envío */
+.formCreate button {
+  margin-top: 10px;
+  width: 33%;
+  padding: 12px;
+  background: #2cff05;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: url("/src/services/flag.png"), auto;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #2cff05, 0 0 20px #2cff05;
+}
+
+/* Efecto hover en el botón */
+.formCreate button:hover {
+  background: white;
+  color: #2cff05;
+  box-shadow: 0 0 15px white, 0 0 30px #2cff05;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplicando la animación al formulario */
+#myformCrearCircuito {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 600px) {
+  .formCreate {
+    padding: 20px;
+    width: 80%;
+    max-width: 100%;
+  }
+
+  .formCreate h1 {
+    font-size: 20px;
+  }
+
+  .formCreate label {
+    font-size: 10px;
+  }
+
+  .formCreate input,
+  .formCreate textarea {
+    font-size: 16px;
+    padding: 12px;
+    width: 58%;
+  }
+
+  .formCreate button {
+    width: 28%;
+    padding: 15px cover;
+    background: #2cff05;
+    font-size: 16px;
+  }
+}
